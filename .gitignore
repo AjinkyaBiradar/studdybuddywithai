@@ -19,3 +19,7 @@ config.toml  # Remove this line if config.toml DOES NOT contain sensitive API ke
 # OS generated files
 .DS_Store
 Thumbs.db
+
+# Database and Memory (Optional, but good practice so user data isn't public)
+data/faiss_index/
+data/study_buddy.db
